@@ -17,6 +17,10 @@ public class AddressBook {
         Book.remove(buddyInfo);
     }
 
+    //This method does nothing
+    public void doNothing(){
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Joe", "Paris", 123);
         AddressBook addressBook = new AddressBook();
