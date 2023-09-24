@@ -22,7 +22,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(buddyInfo);
-        System.out.println("Address Book, wagwan fam");
+        System.out.println("Address Book, I AM NOT YSL!");
     }
 
 }
