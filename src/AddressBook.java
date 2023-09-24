@@ -18,11 +18,11 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-        BuddyInfo buddyInfo = new BuddyInfo("BIBI", "Paris", 123);
+        BuddyInfo buddyInfo = new BuddyInfo("Joe", "Paris", 123);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(buddyInfo);
-        System.out.println("Address Book");
+        System.out.println("Address Book, wagwan fam");
     }
 
 }
